@@ -29,42 +29,43 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 <p>
 Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
   
- <img src="https://i.imgur.com/OPaIGoN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://github.com/user-attachments/assets/b2da39eb-c374-429a-a787-3da45e11fdf7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
 </p>
-<p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft RDP. 
+<p>Next, connect to your newly created VM using RDP with the public IPv4 address.
 </p>
-<img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/b24b938b-51a8-4141-bbc7-c962d7d40188" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
 </p>
 <p>
-Alright, now that you are connected to your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
+Once you are connected to your VM, you will need to enable IIS. Access the control panel, then select Uninstall a program. Next, select "Turn Windows features on or off". A list will appear, and then you will enable Internet Information Services.
 </p>  
-<img src="https://i.imgur.com/qtEnuWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/53c1dce3-0105-4db5-bb19-de1a6d19273f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 </p>
 <p>
-Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-  That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
-</p>
-<img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
-</p>
-<p>
-Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
-</p>
-<img src="https://i.imgur.com/JJ8bZeJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p>
+The link below includes the download to install osTicket.
+https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+
+<img src="https://github.com/user-attachments/assets/289288ae-653e-4c50-afa1-2cbec8eb5e2d" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
+After the Web Installer Platform is installed, open it. From inside the application, you are going to install MySQL 5.5. and then install the x86 version of PHP up to 7.3 afterwards. 
+</p>
+<img src="https://github.com/user-attachments/assets/06a0deff-48bb-4784-b2fc-df390dc0c1a8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+</p>
+<p>
+Now, download osTicket. Then, extract and copy the "upload" folder into C:\inetpub\wwwroot. Rename the folder to osTicket.
 </P>
-<img src="https://i.imgur.com/TUGiSKi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/eb885747-879a-4d64-8546-8758cb20155f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/7652d3dc-9182-43c9-bb98-99c96c2902f9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
