@@ -103,9 +103,27 @@ New Permissions->Everyone->all
 <img src="https://github.com/user-attachments/assets/db1b13bd-1c28-41fe-99c0-cacbda11aaea" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-Congratulations, hopefully it is installed with no errors!
-Clean up
-Delete: C:\inetpub\wwwroot\osTicket\setup
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+</p>
+<p>
+Click continue on the osTicket web server, you should see the page below. Here you will be able to name the Helpdesk to your liking and elect a default email that will receive emails from customers who submit tickets.
+</p>
+<img src="https://github.com/user-attachments/assets/652021ae-d7e6-4e54-8d60-951dfc4bb9f3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<p>
+<p>Go back into the osTicket-Installation-files folder on your desktop, and begin the HeidiSQLSetup. Continue setting up osTicket in the MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+Congratulations, osTicket should be installed!
+<img src="https://github.com/user-attachments/assets/a20f669a-65a2-4c5e-9cb5-2e0357fa7c99" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/3325b17f-521c-40b8-837f-5659cd929e08" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f828a98d-9704-4f09-9b34-3902be71b597" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</br>
+<p>
+</p>
+<p>Congratulations, osTicket should be installed!
+</p>
+<img src="https://github.com/user-attachments/assets/4dcbf276-2d39-4325-b32a-554bb5652960" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+
+
+
