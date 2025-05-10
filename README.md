@@ -71,33 +71,36 @@ Now, download osTicket. Then, extract and copy the "upload" folder into C:\inetp
 <p>
 </p>
 <p>
-Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+Open IIS Manager and restart the server. Once inside IIS manager, navigate to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser. The osTicket web server should have opened.
 </p>
-<img src="https://i.imgur.com/4AkTkV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/921b4cb6-a438-4346-b8f6-599ad60ca0c8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/cf1777f6-193f-46a9-bf31-f45d60646a26" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket
-Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
+Go back into the IIS manager and enable some extensions. Go to Sites->Default->osTicket
+Then double click on PHP Manager. Click on "Disable or enable an extension", Enable "php_intl.dll" & "php_opcache.dll", then refresh the osTicket webserver and observe the changes. "Intl Extension" should now be enabled. 
 </p>
-<img src="https://i.imgur.com/APZgUTT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/0f986d6d-9507-4d91-b06f-fe5f131adf02" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
 Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
-Assign permissions to ost-config.php Disable inheritance->Removeall
+Assign permissions to ost-config.php. Disable inheritance-> Remove all
 New Permissions->Everyone->all
 </p>
-<img src="https://i.imgur.com/1nYaYGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/09274f2a-48e5-4567-879c-ce1c98da648e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/0391b94a-df3a-4e49-baf7-19b2edc790cb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets. 
+Assign permissions to ost-config.php. Disable inheritance-> Remove all
+New Permissions->Everyone->all
 </p>
-<img src="https://i.imgur.com/RmVk3q5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/db1b13bd-1c28-41fe-99c0-cacbda11aaea" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 <p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
